@@ -1,0 +1,29 @@
+{
+  "name": "image-reframe",
+  "description": "A script that automates using ImageMagick to add padding to a set of images to make them fit different resolutions without having to scale them (so no quality is lost). It does this by mirroring the edge pixels to make the canvas larger.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/recognition101/image-reframe",
+  "keywords": [
+    "imagemagick",
+    "frame",
+    "resize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recognition101/image-reframe"
+  },
+  "author": {
+    "name": "Recognition101",
+    "email": "darklightmw@gmail.com"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.8.1",
+    "glob": "^5.0.5",
+    "untildify": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node image-reframe.js"
+  }
+}
